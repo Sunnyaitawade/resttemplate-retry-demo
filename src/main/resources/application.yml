@@ -1,0 +1,8 @@
+resilience4j.retry:
+  instances:
+    retryService:
+      maxRetryAttempts: 5
+      waitDuration: 10000
+
+server:
+  port: 9494
